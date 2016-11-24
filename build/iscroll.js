@@ -1650,7 +1650,7 @@ IScroll.prototype = {
 				this._key(e);
 				break;
 			case 'click':
-				if ( this.enabled && !e._constructed && utils.preventDefaultExpection(e.target, this.options.preventDefaultExpection)) {
+				if ( this.enabled && !e._constructed && utils.preventDefaultException(e.target, this.options.preventDefaultExpection)) {
 					e.preventDefault();
 					e.stopPropagation();
 				}
